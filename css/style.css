@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.bg-box {
+    height: 750px;
+    background: url("../img/grass.png") left bottom / 10% repeat-x,
+                url("../img/house.jpg") center / 35% no-repeat ,
+                url('../img/donut.jpg') right / 40px repeat-y,
+                url('../img/ezhik.png') left / 40px repeat-y, 
+                url('../img/lamp.jpg') top / 50px repeat-x ; 
+    background-color: green;
+}
